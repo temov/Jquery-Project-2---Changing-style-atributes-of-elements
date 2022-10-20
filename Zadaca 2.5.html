@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>News | The Landon Hotel</title>
+<link rel="stylesheet" href="style/style.css">
+<script src="scripts/jquery-1.11.1.js"></script>
+     <script>
+        $("document").ready(function(){
+            $(".apt1,.apt3").css("color", "blue");
+            $(".apt1,.apt3").css("width", "350px");
+            $(".apt1,.apt3").css("height", "150px");
+            $(".apt1,.apt3").css("float", "left");
+            $(".apt1,.apt3").css("padding", "10px");
+            $(".apt1,.apt3").css("line-height", "normal");
+
+             $(".apt2,.apt4").css("color", "red");
+             $(".apt2,.apt4").css("width", "350px");
+            $(".apt2,.apt4").css("float", "right");
+             $(".apt2,.apt4").css("padding", "10px");
+            $("#apartments").css("height", "450px");
+            $(".apt2,.apt4").css("height", "150px");
+            $(".apt2,.apt4").css("line-height", "normal");
+            
+            $("li a[target=_blank]").css("color", "red");
+        });
+        
+    </script>
+</head>
+<body>
+	<div class="container">
+		<div class="header"><img src="img/header.png"></div>
+        <div id="hero">
+            <div class="current"><img src="img/HomePageImages/Paris.jpg"></div>
+        </div>
+
+<nav class="main-navigation" role="navigation">
+<div>
+<ul id="menu-main-menu" class="nav-menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="restaurant-to-room-service.html">Room Service</a></li>
+<li><a href="specials.html" target="_blank">Specials</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="meetings-events.html">Meetings &#038; Events</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html" target="_blank">Contact</a></li>
+</ul></div>
+</nav>
+
+<div class="content">
+		<h1>News</h1><button id="but1">Hide 1</button ><button id="but2">Hide 2</button><button id="but3">Hide 3</button>
+    <div id="apartments">
+        <div class="apt1">
+			<h3>Apartment , San Francisco</h3>
+            <p>Great apartment with a great mountain view. It has 55 m square , for a great price od 750 USD</p>
+            <ul>
+            <li>Air conditioning</li>
+            <li>Parking</li>
+            <li>wi-fi</li>
+            </ul>
+        </div>
+        <div class="apt2">
+			<h3>Apartment , Chicago</h3>
+            <p>Great apartment with a great mountain view. It has 75 m square , for a great price od 950 USD</p>
+            <ul>
+            <li>Air conditioning</li>
+            <li>Parking</li>
+            <li>wi-fi</li>
+            </ul>
+        </div>
+        <div class="apt3">
+			<h3>Apartment , NY</h3>
+            <p>Great apartment with a great mountain view. It has 105 m square , for a great price od 1050 USD</p>
+            <ul>
+            <li>Air conditioning</li>
+            <li>Parking</li>
+            <li>wi-fi</li>
+            </ul>
+        </div>
+        <div class="apt4">
+			<h3>Apartment , Las Vegas</h3>
+            <p>Great apartment with a great mountain view. It has 155 m square , for a great price od 1750 USD</p>
+            <ul>
+            <li>Air conditioning</li>
+            <li>Parking</li>
+            <li>wi-fi</li>
+            </ul>
+        </div>
+         
+	</div>
+    </div>
+</body>
+</html>
